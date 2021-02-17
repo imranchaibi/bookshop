@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Cairo', Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+.navbar-toggler{
+	position: absolute;
+  right: 20px;
+	 top: 26px;
+}
+nav{
+background: #6001ff;
+}
+a{
+color:white;
+}
+a:hover{
+  color:lightblue;
+}
+.card{
+  padding: 3px;
+}
+.bigblock{
+  margin-top: 60px;
+  margin-left: 70px;
+  width: 90%;
+}
+.banner{
+  color: #6001ff;
+  margin-top: 50px;
+  margin-left: 150px;
+}
+
+.card-group{
+  width: 500px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.media{
+  justify-content: space-around;
+  align-items: center;
+}
+.card-title{
+  text-align: center;
+}
+@media (max-width: 800px) {
+    .links{
+      padding-top: 39px;
+      text-align: center;
+      padding-bottom: 40px;
+      justify-content: space-around;
+      align-items: center;
+    }
+  }
